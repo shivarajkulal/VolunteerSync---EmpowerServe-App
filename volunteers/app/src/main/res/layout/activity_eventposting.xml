@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F2F2"
+    tools:ignore="ExtraText">
+    n
+
+    <EditText
+        android:id="@+id/Engoname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        android:width="300dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="Ngoname"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/EventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Engoname"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="EventName"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Dateofconduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EventName"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="Dateofconduction"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/EnPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dateofconduct"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="@drawable/edittext_border"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="phone number"
+        android:inputType="phone"
+        android:maxLength="10"
+
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/EEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnPhone"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/vrequired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EEmailAddress"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:digits="0123456789"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="Number of Volunteers Req"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vrequired"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="#2D2A2A"
+        android:textColorHint="#2D2A2A"
+        android:autofillHints="" />
+
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="267dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/Address"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="38dp"
+        android:text="POST"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#0097A7"
+        app:cornerRadius="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="44dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="already have a account ? "
+                android:textColor="#2D2A2A"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/signupregister"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="signin"
+                android:textColor="#0097A7"
+                android:textSize="17sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/myclickslogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Volunteers"
+        tools:targetApi="31">
+        <activity
+            android:name=".guidlines"
+            android:exported="false" />
+        <activity
+            android:name=".publicngoview"
+            android:exported="false" />
+        <activity
+            android:name=".lanuchpage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ngoprofilepage"
+            android:exported="false"
+            android:label="AdminProfile" />
+        <activity
+            android:name=".Vlandingpage"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name=".Eventposting"
+            android:exported="false"
+            android:label="EventPosting" />
+        <activity
+            android:name=".ngosignup"
+            android:exported="false"
+            android:label="NGOSignup" />
+        <activity
+            android:name=".NGOLogin"
+            android:exported="false"
+            android:label="Ngologin" />
+        <activity
+            android:name=".VeventRegistration"
+            android:exported="false"
+            android:label="EventRegistration" />
+        <activity
+            android:name=".Vprofile"
+            android:exported="true"
+            android:label="Profile" />
+        <activity
+            android:name=".Vsignup"
+            android:exported="false"
+            android:label="SignUp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="Login">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

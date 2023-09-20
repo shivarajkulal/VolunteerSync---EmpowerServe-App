@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">volunteers</string>
+    <string name="drawer_open">draweropen</string>
+    <string name="drawer_close">drawerclose</string>
+    <string name="Guidlines"><![CDATA[
+    <b>Guidelines:</b><br><br>
+
+    <b>User Interface:</b><br><br>
+
+    1. Signup/Login:<br>
+       - Provide a user-friendly signup/login screen with appropriate input fields for username, email, password, etc.<br>
+       - Implement secure authentication mechanisms to protect user data.<br><br>
+
+    2. Landing Page:<br>
+       - After successful login, display a landing page with a list of NGOs and their posted events.<br>
+       - Use a RecyclerView or ListView to display the NGOs and their events.<br>
+       - Each item should show relevant details such as NGO name, event title, and event date.<br>
+       - Implement click listeners to allow users to view more details about an NGO or event.<br><br>
+
+    3. NGO Details:<br>
+       - When a user clicks on an NGO, display a detailed view of the NGO\'s information.<br>
+       - Include information such as NGO name, description, contact details, and a list of their posted events.<br>
+       - Provide an option for users to register for an event.<br><br>
+
+    4. Event Registration:<br>
+       - When a user clicks on an event, display detailed information about the event.<br>
+       - Show event title, description, date, location, and any other relevant details.<br>
+       - Implement a registration button to allow users to register for the event.<br>
+       - Store the user\'s registration information securely on the server.<br><br>
+
+    <b>Admin Interface:</b><br><br>
+
+    1. Signup/Login:<br>
+       - Provide a separate signup/login screen for NGO admins.<br>
+       - Validate admin credentials securely to ensure authorized access.<br><br>
+
+    2. Dashboard:<br>
+       - After login, display a dashboard with options for managing NGO-related activities.<br>
+       - Include options such as viewing other NGOs, posting events, managing event registrations, etc.<br><br>
+
+    3. NGO Management:<br>
+       - Provide a page to view and manage the admin\'s own NGO details.<br>
+       - Allow admins to edit NGO information, including name, description, and contact details.<br><br>
+
+    4. Event Management:<br>
+       - Allow admins to create and post new events.<br>
+       - Include fields for event title, description, date, location, and other relevant information.<br>
+       - Provide an option to edit or delete existing events.<br><br>
+
+    5. NGO and Event Viewing:<br>
+       - Allow admins to browse and view other NGOs\' details and posted events.<br>
+       - Implement a search feature to find specific NGOs or events.<br><br>
+
+
+]]></string>
+</resources>

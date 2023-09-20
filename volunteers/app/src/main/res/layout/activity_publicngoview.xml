@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/profileImageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="393dp"
+                    android:layout_height="152dp"
+                    android:layout_marginBottom="40dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+                    app:srcCompat="@drawable/pngob"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="160dp"
+                    android:layout_height="99dp"
+                    android:layout_marginBottom="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="@+id/imageView9"
+                    app:srcCompat="@drawable/user" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profileDetailsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_weight="1"
+
+
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp">
+
+                <TextView
+                    android:id="@+id/ngopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="NgoName       :"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Ngonameval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:textColor="#2D2A2A"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/npname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Head               :"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/npnameval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="   Shobith"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/npemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Email               :"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/npemailval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+
+                    android:text="tulunad@gmail.com"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/npphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Phone              :"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="   9876543212"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="40dp"-->
+            <!--                android:layout_marginTop="10dp">-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/nploc"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+
+            <!--                    android:text="location           :"-->
+            <!--                    android:textColor="#F3494444"-->
+            <!--                    android:textSize="20sp"-->
+            <!--                    android:textStyle="bold" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/nplocval"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+
+            <!--                    android:text="   Hebri"-->
+            <!--                    android:textColor="#F3494444"-->
+            <!--                    android:textSize="20sp"-->
+            <!--                    android:textStyle="bold" />-->
+            <!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/npaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="address           :"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/npaddressval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="80dp"
+                    android:text="   NgoTest,Manglore"
+                    android:textColor="#F3494444"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--            <Button-->
+            <!--                android:id="@+id/edit"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="140dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:text="Edit"-->
+            <!--                android:textColor="#F8F5F5"-->
+            <!--                android:textSize="16sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                app:backgroundTint="#0277BD"-->
+            <!--                app:cornerRadius="10dp" />-->
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/addeventDetailsContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="400dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="#F8F5F5"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="10dp">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_marginTop="60dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+
+<!--                app:cardElevation="8dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="#F6F2F2"-->
+<!--                    android:padding="10dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="#DBD3D7">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="147dp"-->
+<!--                            android:layout_height="164dp"-->
+<!--                            app:srcCompat="@drawable/ngologo" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/addevent"-->
+<!--                        android:layout_width="180dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginLeft="25dp"-->
+<!--                        android:layout_marginTop="100dp"-->
+
+<!--                        android:text="NewPost"-->
+<!--                        android:textColor="#F6F4F4"-->
+<!--                        android:textStyle="normal|bold"-->
+<!--                        app:backgroundTint="#0277BD"-->
+<!--                        app:cornerRadius="30dp" />-->
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</ScrollView>

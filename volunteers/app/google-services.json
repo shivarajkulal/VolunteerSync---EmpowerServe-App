@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "499860825706",
+    "project_id": "vfirbaseconnect",
+    "storage_bucket": "vfirbaseconnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499860825706:android:48018694d2796e0fc4cc13",
+        "android_client_info": {
+          "package_name": "com.example.volunteers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499860825706-78h9gu4k2mp7aqihoqdvuiu3ne6k2uji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAedDi3Ib3h7pmmJyY7fBcdJ3VtO2fBN1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499860825706-78h9gu4k2mp7aqihoqdvuiu3ne6k2uji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

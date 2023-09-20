@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFBFB"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFEFE"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/profileImageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFDFD">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="393dp"
+                    android:layout_height="153dp"
+                    android:layout_marginBottom="40dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+                    app:srcCompat="@drawable/background1"
+                    tools:layout_editor_absoluteX="-3dp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="102dp"
+                    android:layout_height="95dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="@+id/imageView9"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.981"
+                    app:srcCompat="@drawable/user" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/profileDetailsContainer"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="500dp"-->
+        <!--            android:layout_weight="1"-->
+
+        <!--            android:background="#F6F2F2"-->
+        <!--            android:orientation="vertical">-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/ngopname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Name               :"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pnameval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="   Shobith R Acharya"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/puname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="UName            :"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/punameval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="   Shobith16"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/pemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Email               :"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pemailval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+
+                android:text="Shobithracharya1816@gmail.com"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/pphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Phone              :"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pphnval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="   9876543212"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="10dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/ploc"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:text="location           :"-->
+<!--                android:textColor="#F3494444"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/plocval"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:text="   Hebri"-->
+<!--                android:textColor="#F3494444"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/paddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="address           :"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/paddressval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="80dp"
+                android:text="   MITE,Moodabidre"
+                android:textColor="#F3494444"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<!--        <Button-->
+<!--            android:id="@+id/edit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="Edit"-->
+<!--            android:textColor="#F8F7F7"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:backgroundTint="#00796B"-->
+<!--            app:cornerRadius="10dp" />-->
+
+    </LinearLayout>
+
+    <!--    </LinearLayout>-->
+
+</ScrollView>

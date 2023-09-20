@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:id="@+id/profileImageContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="393dp"
+            android:layout_height="339dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ngonamepostedtop"
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/arapey"
+                android:letterSpacing=".1"
+
+                android:text="Ngotest"
+                android:textColor="#00695C"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                tools:targetApi="lollipop" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="344dp"
+                android:layout_height="258dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="15dp"
+
+                app:cardBackgroundColor="#D84315"
+
+                app:cardCornerRadius="12dp"
+                app:cardElevation="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="359dp"
+                    android:layout_height="260dp"
+                    android:layout_marginStart="12dp"
+                    android:background="#Ffff"
+
+                    >
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/im"
+                            android:layout_width="62dp"
+                            android:layout_height="54dp"
+
+                            android:layout_marginTop="10dp"
+                            app:srcCompat="@drawable/ngologo" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="261dp"
+                        android:layout_height="253dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/ngonameposted"
+                            style="@android:style/Widget.DeviceDefault.Light.TextView"
+                            android:layout_width="230dp"
+                            android:layout_height="64dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="25dp"
+                            android:fontFamily="@font/arbutus_slab"
+
+                            android:letterSpacing=".1"
+                            android:text="Ngotest"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                            android:textColor="#EF6C00"
+                            android:textSize="24sp"
+                            android:textStyle="normal|bold"
+                            tools:targetApi="lollipop" />
+
+                        <TextView
+                            android:id="@+id/eventnameposted"
+                            android:layout_width="231dp"
+                            android:layout_height="139dp"
+
+                            android:layout_below="@+id/ngonameposted"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+
+                            android:text="content"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            tools:ignore="TextSizeCheck" />
+
+                        <!--                <TextView-->
+
+                        <!--                    android:layout_width="138dp"-->
+                        <!--                    android:layout_height="wrap_content"-->
+
+                        <!--                    android:layout_marginStart="60dp"-->
+                        <!--                    android:layout_marginBottom="10dp"-->
+
+                        <!--                    android:text="Fooddonation"-->
+
+                        <!--                    android:textColor="#0B0A0A"-->
+                        <!--                    android:textSize="20sp"-->
+                        <!--                    android:textStyle="normal" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/loceventposted"-->
+                        <!--                            android:layout_width="201dp"-->
+                        <!--                            android:layout_height="wrap_content"-->
+
+                        <!--                            android:layout_marginStart="60dp"-->
+                        <!--                            android:layout_marginTop="5dp"-->
+
+
+                        <!--                            android:text="near city center-->
+                        <!--                            manglore"-->
+
+                        <!--                            android:textColor="#0B0A0A"-->
+                        <!--                            android:textSize="20sp"-->
+                        <!--                            android:textStyle="normal|bold"-->
+                        <!--                            tools:ignore="TextSizeCheck" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/dateofeventposted"-->
+                        <!--                            android:layout_width="200dp"-->
+                        <!--                            android:layout_height="wrap_content"-->
+
+                        <!--                            android:layout_marginStart="60dp"-->
+                        <!--                            android:layout_marginTop="5dp"-->
+
+                        <!--                            android:text="20/2/2023"-->
+
+                        <!--                            android:textColor="#0B0A0A"-->
+                        <!--                            android:textSize="20sp"-->
+                        <!--                            android:textStyle="normal" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/volforeventposted"-->
+                        <!--                            android:layout_width="203dp"-->
+                        <!--                            android:layout_height="wrap_content"-->
+
+                        <!--                            android:layout_marginStart="60dp"-->
+                        <!--                            android:layout_marginTop="5dp"-->
+
+                        <!--                            android:text="10volunters"-->
+
+                        <!--                            android:textColor="#0B0A0A"-->
+                        <!--                            android:textSize="20sp"-->
+                        <!--                            android:textStyle="normal|bold" />-->
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/phone"-->
+                        <!--                            android:layout_width="203dp"-->
+                        <!--                            android:layout_height="wrap_content"-->
+
+                        <!--                            android:layout_marginStart="60dp"-->
+                        <!--                            android:layout_marginTop="5dp"-->
+
+                        <!--                            android:text="988765432"-->
+
+                        <!--                            android:textColor="#0B0A0A"-->
+                        <!--                            android:textSize="20sp"-->
+                        <!--                            android:textStyle="normal" />-->
+                    </LinearLayout>
+
+
+                    <!--                    <androidx.cardview.widget.CardView-->
+                    <!--                        android:id="@+id/image"-->
+                    <!--                        android:layout_width="95dp"-->
+                    <!--                        android:layout_height="222dp"-->
+
+                    <!--                        android:layout_marginTop="20dp"-->
+                    <!--                        android:layout_marginLeft="20dp"-->
+
+
+                    <!--                        app:cardBackgroundColor="#996BC8DF"-->
+                    <!--                        app:cardCornerRadius="12dp"-->
+                    <!--                        app:cardElevation="16dp">-->
+
+                    <!--                        <ImageView-->
+                    <!--                            android:id="@+id/im"-->
+                    <!--                            android:layout_width="80dp"-->
+                    <!--                            android:layout_height="77dp"-->
+                    <!--                            android:layout_marginStart="10dp"-->
+                    <!--                            android:layout_marginTop="10dp"-->
+                    <!--                            app:srcCompat="@drawable/myclickslogo" />-->
+
+                    <!--                        <Button-->
+                    <!--                            android:id="@+id/joineve"-->
+                    <!--                            android:layout_width="76dp"-->
+                    <!--                            android:layout_height="49dp"-->
+                    <!--                            android:layout_marginLeft="10dp"-->
+                    <!--                            android:layout_marginTop="170dp"-->
+
+                    <!--                            android:onClick="onJoinButtonClick"-->
+                    <!--                            android:text="Join"-->
+                    <!--                            android:textColor="#F6EFEF"-->
+                    <!--                            app:backgroundTint="#558B2F"-->
+                    <!--                            app:cornerRadius="10dp" />-->
+
+                    <!--                    </androidx.cardview.widget.CardView>-->
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
